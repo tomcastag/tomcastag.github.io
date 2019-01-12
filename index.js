@@ -5,7 +5,7 @@ $("#bio").on("click", function(event) {
 
 $("#gestion").on("click", function(event) {
   $("#gestion .tab-pane").toggleClass("active");
-  $("#textoCentral").html("");
+  $("#textoCentral").html("<p><strong>DOCE VEINTICUATRO  _  Programa de entrenamiento escénico</strong></p><img src='https://i.imgur.com/uvh1lL1.jpg' title='1224' align='left' HSPACE='50' VSPACE='50' style='height: 50%; width: 50%; object-fit: contain' /><p>Plataforma colaborativa y de resistencia activa/colectiva. Un programa de investigación y entrenamiento. Durante 12 semanas, 24 artistas-creadores comparten y transmiten saberes particulares que están desarrollando en formato de seminarios intensivos. Cada seminario tiene una duración de 3 horas diarias durante 1 semana y se ofrecen de a 2 seminarios por semana.</p><p>Doce Veinticuatro es un festival de seminarios intensivos orientado a artistas profesionales y estudiantes en formación en artes performativas. Doce Veinticuatro crea un contexto que posibilita el intercambio de conocimiento y metodologías entre profesionales de la escena local, promueve el acceso de la comunidad a las investigaciones en curso de artistas-docentes y agita sus desarrollos al proponer compartirlos en estado magmático. DOCE VEINTICUATRO fue declarada de Interés Cultural por el Ministerio de Cultura de la Ciudad Autónoma de Buenos Aires - Regímenes de Promoción Cultural - Mecenazgo - Ministerio de Cultura - Gobierno de la Ciudad Autónoma de Buenos Aires.</p><p>Equipo DOCE VEINTICUATRO<br>Dirección y Producción general:  Catalina Lescano , Lalo Moro, Marcio Barceló.<br>Dirección artística y Curaduría: Catalina Lescano<br>Diseño Gráfico: Guadalupe Lobo<br>Dirección de registro en Foto: Guadalupe Arriegue<br>Colaboración en Foto: Rocío de Belén y Ailén Scandurra<br>Edición en video: Ailén Scandurra<br>Comunicación: Constanza Zarnitzer<br>Dirección editorial de registros escritos: En convivencia Segunda Cuadernos de Danza y Doce Veinticuatro.</p><p>FB: @seminarios1224 <br>https://www.facebook.com/pg/seminarios1224/about/?ref=page_internal<br>IG: @doceveinticuatro<br>VIMEO: https://vimeo.com/user68162502</p>");
 });
 
 $("li").on("click", function(event) {
@@ -37,4 +37,3 @@ $("#laboratorios").on("click", function() {
 $("#inicio").on("click", function() {
   $("#textoCentral").text("");
 });
-
