@@ -1,0 +1,38 @@
+.list-group li {
+padding-left: 0;
+
+}
+
+.container {
+  padding-top: 7%;
+}
+
+#titulo {
+  padding-bottom: 6%;
+}
+
+.list-group-item, tab-pane:hover {
+  cursor: pointer;
+}
+
+.idiomas {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+}
+
+.idiomas a {
+  color: black;
+}
+
+ul.tab-content {
+  padding-left: 10px;
+}
+
+.activo {
+  font-weight: bold;
+}
+
+li {
+  font-weight: normal;
+}
