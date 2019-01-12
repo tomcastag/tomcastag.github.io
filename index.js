@@ -5,6 +5,7 @@ $("#bio").on("click", function(event) {
 
 $("#gestion").on("click", function(event) {
   $("#gestion .tab-pane").toggleClass("active");
+  $("#textoCentral").html("");
 });
 
 $("li").on("click", function(event) {
@@ -37,14 +38,3 @@ $("#inicio").on("click", function() {
   $("#textoCentral").text("");
 });
 
-$("#espacios").on("click", function() {
-  $("#textoCentral").html("<p>FABRICA PERÚ</p><p>ESPACIO ZAFRA</p>");
-});
-
-$("#ciclos").on("click", function() {
-  $("#textoCentral").html("<p>DOCE VEINTICUATRO</p><p>ARQUEOLOGIAS DEL FUTURO</p><p>123 DANZA</p><p>DANZA EN EL CONTI</p>");
-});
-
-$("#otros").on("click", function() {
-  $("#textoCentral").html("<p>CORTADO ABIERTO</p><p>TRIGONO.</p><p>TRIO CDT</p>");
-});
