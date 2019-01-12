@@ -38,7 +38,7 @@ $("#extensa").on("click", function() {
 });
 
 $("#trabajos").on("click", function() {
-  $("#textoCentral").html("<a href='https://imgur.com/2olflKp'><img src='https://i.imgur.com/2olflKp.png' title='source: imgur.com'/></a>");
+  $("#textoCentral").html("<a href='https://imgur.com/2olflKp'><img src='https://i.imgur.com/2olflKp.png' title='source: imgur.com' style='height: 100%; width: 100%; object-fit: contain'/></a>");
 });
 
 
