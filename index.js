@@ -1,3 +1,4 @@
+const inicio = "<p><img src='https://i.imgur.com/qk4E23s.jpg' title='inicio' style='height: 100%; width: 100%; object-fit: contain' /></p>";
 
 const bioReducida = "<p><img src='https://i.imgur.com/qk4E23s.jpg' title='bio' style='height: 100%; width: 100%; object-fit: contain' /></p><p>Buenos Aires, 1986. Es artista, creadora, curadora y gestora de artes escénicas y performativas. En su infancia practicó acrobacia equina. A los 14 años leyó Medea y se dijo a sí misma “quiero ser actriz”. Integró grupos de diversas índoles y tamaños: asambleas estudiantiles, elencos profesionales, asociaciones de salas independientes, equipos de soporte de producciones internacionales y alianzas de investigación en performatividades y afecto. Siempre imagina proyectos grandes, siempre en colaboración con otres. Sus procesos creativos son constantes y en simultáneo. Toman la forma de espacios, encuentros, festivales, laboratorios, talleres, investigaciones, ensayos de cosas que muchas veces no quieren ser obras y cada tanto cosas que quieren abrirse y publicarse para volver a pensarse o para poder finalmente pensar en otras cosas. Todos estos espacios se retroalimentan. Entiende que la logística es una poética y viceversa. Su trabajo más reciente indaga en la herencia del imaginario erótico porteño entre los años ‘60 y 2000. Su obsesión actual es la posibilidad de crear y manipular el tiempo.</p><p>En los últimos cinco años crea y presenta sus propias investigaciones escénicas, obras y performances: ELA (2014, dirección Laura Figueiras), VISA LISBOA (2016), MONTAÑA (2016), TAURE (2017), PALESTRA CAMPAL, (2017, co-dirección Nina Giovelli), Pérdoname Señor! He sido Mala. De todo me arrepiento (2018, en colaboración con la poeta Flavia Calise).</p><p>Dirige la plataforma de seminarios y laboratorios DOCE VEINTICUATRO y el encuentro internacional de artes performativas ARQUEOLOGÍAS DEL FUTURO en asociación con Alina Folini.</p>";
 
@@ -29,7 +30,9 @@ const laboratorios = "<p><strong>DISEÑO Y CREACIÓN EN LA AUTOGESTIÓN ARTÍSTI
 
 
 
-
+$("#inicio").on("click", function() {
+  $("#textoCentral").html(inicio);
+});
 
 $("#bio").on("click", function(event) {
   $("#bio .tab-pane").toggleClass("active");
@@ -63,11 +66,3 @@ $("li").on("click", function(event) {
 $("li li").click( function(event) {
     event.stopPropagation();
 } );
-
-
-
-
-
-$("#inicio").on("click", function() {
-  $("#textoCentral").text("");
-});
