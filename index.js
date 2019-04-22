@@ -58,35 +58,35 @@ $("#trabajos").on("click", function() {
   $("#fotoEstante3").html(fotoEstante3);
   $("#fotoEstante4").html(fotoEstante4);
   $("#fotoEstante5").html(fotoEstante5);
-  $("#fotoEstante6").html(fotoEstante1);
+  $("#fotoEstante6").html(fotoEstante6);
 });
 
 $("#fotoEstante1").on("click", function() {
-  $("#fotoEstante1").html("trabajos");
+  $("#estante1").html("trabajos");
 });
 
 $("#fotoEstante2").on("click", function() {
-  $("#fotoEstante2").html("trabajos");
+  $("#estante2").html("trabajos");
 });
 
 $("#fotoEstante3").on("click", function() {
-  $("#fotoEstante3").html("trabajos");
+  $("#estante3").html("trabajos");
 });
 
 $("#fotoEstante3").on("click", function() {
-  $("#fotoEstante3").html("trabajos");
+  $("#estante3").html("trabajos");
 });
 
 $("#fotoEstante4").on("click", function() {
-  $("#fotoEstante4").html("trabajos");
+  $("#estante4").html("trabajos");
 });
 
 $("#fotoEstante5").on("click", function() {
-  $("#fotoEstante5").html("trabajos");
+  $("#estante5").html("trabajos");
 });
 
 $("#fotoEstante6").on("click", function() {
-  $("#fotoEstante6").html("");
+  $("#estante6").html("trabajo");
 });
 
 $("#laboratorios").on("click", function() {
