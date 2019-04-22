@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Catalina Lescano</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet"> 
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
@@ -13,7 +14,8 @@
 
   </head>
   <body>
-
+  <body style="font-family: 'Lato', sans-serif;">
+    
     <div class="idiomas">
       <p>
         <a href="#">ES</a> -
@@ -33,30 +35,26 @@
       <div class="row">
         <div class="col-md-3">
           <ul class="list-group list-group-flush">
-            <li class="list-group-item" id="inicio" tabindex="0">Inicio</li>
-            <li class="list-group-item" id="bio" tabindex="0">
+            <li class="list-group-item list-group-item-action" id="inicio" tabindex="0">Inicio</li>
+            <li class="list-group-item list-group-item-action" id="bio" tabindex="0">
               Bio
               <ul class="tab-content">
-                <li class="tab-pane fade show text-right" id="mini" role="tabpanel">Abreviada</li>
                 <li class="tab-pane fade show text-right" id="extensa" role="tabpanel">Extendida</li>
               </ul>
             </li>
-            <li class="list-group-item">Work/Performances</li>
-            <li class="list-group-item">Workshops/Laboratorios</li>
-            <li class="list-group-item" id="gestion">
-              Gestión y Producción
-              <ul class="tab-content">
-                <li class="tab-pane fade show text-right" id="espacios" role="tabpanel">Espacios</li>
-                <li class="tab-pane fade show text-right" id="ciclos" role="tabpanel">Ciclos y Festivales</li>
-                <li class="tab-pane fade show text-right" id="otros" role="tabpanel">Otros</li>
-              </ul>
+            <li class="list-group-item list-group-item-action" id="trabajos">Work/Performances</li>
+            <li class="list-group-item list-group-item-action" id="laboratorios">Workshops/Laboratorios</li>
+            <li class="list-group-item list-group-item-action" id="gestion">
+              Curaduría y Gestión Cultural
             </li>
-            <li class="list-group-item">Escritos</li>
+            <li class="list-group-item list-group-item-action">Escritos</li>
             <li class="list-group-item list-group-item-action">Contacto</li>
           </ul>
         </div>
         <div class="col-md-7 offset-md-1">
-          <p id="textoCentral" class="text-justify"><img src='https://i.imgur.com/bRDoAo8.jpg' title='inicio' style='height: 100%; width: 100%; object-fit: contain' /></p>
+          <p id="textoCentral" class="text-justify">
+            <img src='https://i.imgur.com/bRDoAo8.jpg' title='inicio' style='height: 100%; width: 100%; object-fit: contain' />
+          </p>
           <div id='fotoEstante1'>
           </div>
           <div class="estantes" id='estante1'>
