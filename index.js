@@ -67,6 +67,7 @@ $("#extensa").on("click", function() {
 
 $("#trabajos").on("click", function() {
   $("#textoCentral").html("");
+  limpiarFotos();
   $("#fotoEstante1").html(fotoEstante1);
   $("#fotoEstante2").html(fotoEstante2);
   $("#fotoEstante3").html(fotoEstante3);
