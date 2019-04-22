@@ -10,6 +10,13 @@ const trabajosOLD = "<p><img src='https://i.imgur.com/2olflKp.png' title='perdon
 
 const trabajos = "<div id='fotoEstante1'><img src='https://i.imgur.com/736ZcDX.jpg' title='1' style='height: 100%; width: 100%; object-fit: contain' /></div><div id='fotoEstante2'><img src='https://i.imgur.com/GF939SN.jpg' title='2' style='height: 100%; width: 100%; object-fit: contain' /></div><div id='fotoEstante3'><img src='https://i.imgur.com/J66ilNq.jpg' title='3' style='height: 100%; width: 100%; object-fit: contain' /></div><div id='fotoEstante4'>  <img src='https://i.imgur.com/3a0MTcK.jpg' title='4' style='height: 100%; width: 100%; object-fit: contain' /></div><div id='fotoEstante5'>  <img src='https://i.imgur.com/ds515qN.jpg' title='5' style='height: 100%; width: 100%; object-fit: contain' /></div><div id='fotoEstante6'><img src='https://i.imgur.com/kEcRz7c.jpg' title='6' style='height: 100%; width: 100%; object-fit: contain' /></div>";
 
+const fotoEstante1 = "<img src='https://i.imgur.com/736ZcDX.jpg' title='1' style='height: 100%; width: 100%; object-fit: contain' />";
+const fotoEstante2 = "<img src='https://i.imgur.com/GF939SN.jpg' title='2' style='height: 100%; width: 100%; object-fit: contain' />";
+const fotoEstante3 = "<img src='https://i.imgur.com/J66ilNq.jpg' title='3' style='height: 100%; width: 100%; object-fit: contain' />";
+const fotoEstante4 = "<img src='https://i.imgur.com/3a0MTcK.jpg' title='4' style='height: 100%; width: 100%; object-fit: contain' />";
+const fotoEstante5 = "<img src='https://i.imgur.com/ds515qN.jpg' title='5' style='height: 100%; width: 100%; object-fit: contain' />";
+const fotoEstante6 = "<img src='https://i.imgur.com/kEcRz7c.jpg' title='6' style='height: 100%; width: 100%; object-fit: contain' />";
+
 const laboratorios = "<p><strong>DISEÑO Y CREACIÓN EN LA AUTOGESTIÓN ARTÍSTICA</strong></p><p>Está destinado a cualquier persona mayor de 18 años que quiera trabajar sobre un proyecto en particular. El cupo será de 10 participantes. La orientación es para proyectos vinculados a las artes vivas aunque no es excluyente. El formato será de taller, dividido en tres módulos:</p><p>Primer módulo: Caja de herramientas personalizada.<br>Segundo módulo: Diseño imposible.<br>Tercer módulo: La criatura.<br>El objetivo es que cada participante traiga un proyecto al que se le dará un seguimiento personal e individualizado a la vez que compartiremos estrategias a través de metodologías de colaboración.</p><p>Martes y Jueves de 10:00 a 13:00 hs. Del 7 al 30 de MAYO. En COMÚN ESTUDIO. Zona Almagro. Humahuaca y Salguero. <br>Por info e inscripciones: catalina.lescano@gmail.com </p><p>*Modalidad en CABA: Mensual: Seguimiento de 10 proyectos 6 horas de cursada semanal (8 encuentros). Martes y Jueves de 10:00 a 13:00 hs. Del 7 al 30 de MAYO. En COMÚN ESTUDIO. Zona Almagro. Humahuaca y Salguero. Trimestral. Seguimiento de 10 proyectos 4 horas de cursada semanal (12 encuentros). JUNIO - JULIO - AGOSTO. <br> *Modalidad intensiva semanal: 5 días seguidos, 6 horas por día con media hora de pausa.<br> Por info e inscripciones: catalina.lescano@gmail.com</p><br><br><br><p><strong>ENTRENAMIENTO NIN-YA!</strong></p><p>Estar preparado para ahora, para ya. Reactualizar las herramientas, repensar los lenguajes para construir en común, compartir nuestros trucos, nuestras trampas y practicar la magia. Abordaremos poéticas y técnicas contemporáneas que tiendan a crear los escenarios para los cuales queremos prepararnos. El punto de partida será la hibridación entre el teatro, la performance y la danza. </p><p>*Modalidad: abierto de mayo a noviembre dos veces por semana. Se abona por mes.</p><br><br><br><p><strong>LA POTENCIA DE LO INVISIBLE</strong></p><p>Laboratorio de investigación performativa teórico-práctico: entre la fenomenología y la ciencia ficción.</p><p>Durante el laboratorio propongo que indaguemos sobre los posibles que se abren en la invisibilidad de la acción. ¿Qué nos permite accionar en los márgenes de lo visible? ¿Cómo podemos construir prácticas invisibles? Entre todxs construiremos estrategias diversas para gozar de la invisibilidad y su potencia, en la era de la selfie.</p><p>*Modalidad intensiva semanal: 5 encuentros de 4 horas cada uno, de lunes a viernes. <br>* CABA: Septiembre. Fechas a confirmar. <br>Por info e inscripciones: catalina.lescano@gmail.com </p><br><br><br>";
 
 
@@ -45,7 +52,13 @@ $("#extensa").on("click", function() {
 });
 
 $("#trabajos").on("click", function() {
-  $("#textoCentral").html(trabajos);
+  $("#textoCentral").html("");
+  $("#fotoEstante1").html(fotoEstante1);
+  $("#fotoEstante2").html(fotoEstante2);
+  $("#fotoEstante3").html(fotoEstante3);
+  $("#fotoEstante4").html(fotoEstante4);
+  $("#fotoEstante5").html(fotoEstante5);
+  $("#fotoEstante6").html(fotoEstante1);
 });
 
 $("#fotoEstante1").on("click", function() {
