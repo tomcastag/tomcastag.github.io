@@ -39,6 +39,8 @@ li {
 
 figure {
 	background: #fff;
+	padding: 0;
+	margin: 0;
 }
 figure:hover+span {
 	opacity: 1;
