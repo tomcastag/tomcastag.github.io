@@ -41,7 +41,6 @@ figure {
 	background: #fff;
 }
 figure:hover+span {
-	bottom: -36px;
 	opacity: 1;
 }
 
