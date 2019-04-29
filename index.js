@@ -10,12 +10,12 @@ const gestion = "<p><img src='https://i.imgur.com/uvh1lL1.jpg' title='1224' styl
 
 const trabajos = "<div id='fotoEstante1'><img src='https://i.imgur.com/736ZcDX.jpg' title='1' style='height: 100%; width: 100%; object-fit: contain' /></div><div id='fotoEstante2'><img src='https://i.imgur.com/GF939SN.jpg' title='2' style='height: 100%; width: 100%; object-fit: contain' /></div><div id='fotoEstante3'><img src='https://i.imgur.com/J66ilNq.jpg' title='3' style='height: 100%; width: 100%; object-fit: contain' /></div><div id='fotoEstante4'>  <img src='https://i.imgur.com/3a0MTcK.jpg' title='4' style='height: 100%; width: 100%; object-fit: contain' /></div><div id='fotoEstante5'>  <img src='https://i.imgur.com/ds515qN.jpg' title='5' style='height: 100%; width: 100%; object-fit: contain' /></div><div id='fotoEstante6'><img src='https://i.imgur.com/kEcRz7c.jpg' title='6' style='height: 100%; width: 100%; object-fit: contain' /></div>";
 
-const fotoEstante1 = "<img src='https://i.imgur.com/736ZcDX.jpg' title='1' style='height: 100%; width: 100%; object-fit: contain' />";
-const fotoEstante2 = "<img src='https://i.imgur.com/GF939SN.jpg' title='2' style='height: 100%; width: 100%; object-fit: contain' />";
-const fotoEstante3 = "<img src='https://i.imgur.com/J66ilNq.jpg' title='3' style='height: 100%; width: 100%; object-fit: contain' />";
-const fotoEstante4 = "<img src='https://i.imgur.com/3a0MTcK.jpg' title='4' style='height: 100%; width: 100%; object-fit: contain' />";
-const fotoEstante5 = "<img src='https://i.imgur.com/ds515qN.jpg' title='5' style='height: 100%; width: 100%; object-fit: contain' />";
-const fotoEstante6 = "<img src='https://i.imgur.com/kEcRz7c.jpg' title='6' style='height: 100%; width: 100%; object-fit: contain' />";
+const fotoEstante1 = "<figure><img src='https://i.imgur.com/736ZcDX.jpg' title='1' style='height: 100%; width: 100%; object-fit: contain' /></figure>";
+const fotoEstante2 = "<figure><img src='https://i.imgur.com/GF939SN.jpg' title='2' style='height: 100%; width: 100%; object-fit: contain' /></figure>";
+const fotoEstante3 = "<figure><img src='https://i.imgur.com/J66ilNq.jpg' title='3' style='height: 100%; width: 100%; object-fit: contain' /></figure>";
+const fotoEstante4 = "<figure><img src='https://i.imgur.com/3a0MTcK.jpg' title='4' style='height: 100%; width: 100%; object-fit: contain' /></figure>";
+const fotoEstante5 = "<figure><img src='https://i.imgur.com/ds515qN.jpg' title='5' style='height: 100%; width: 100%; object-fit: contain' /></figure>";
+const fotoEstante6 = "<figure><img src='https://i.imgur.com/kEcRz7c.jpg' title='6' style='height: 100%; width: 100%; object-fit: contain' /></figure>";
 
 const textoTrabajo1 = "<br><p style='padding:8px;'></p><p><strong>PERDONAME SEÑOR! HE SIDO MALA. DE TODO ME ARREPIENTO</strong></p><p>En escena: Catalina Lescano<br>Texto: Flavia Calise y Catalina Lescano<br>Dirección: Catalina Lescano<br>Colaboración Artística: Flavia Calise<br>Estreno Noviembre  2018. Ciclo Macriteatro Buenos Aires, Estudio Los Vidrios, CABA, Argentina.</p><p><i>Debajo del agua, ilumina y traiciona, ahora<br>La sangre que flota<br>¿acaso es mi boca que explotó en el río?<br>¿o un hombre desintegrado por mi lengua?</i></p><p>Poema confesional creado a partir de la filmografía de Armando Bó con Isabel Sarli entre los años 1958 y 1968.  Esta colaboración artística entre Catalina Lescano y Flavia Calise forma parte de una investigación sobre el imaginario erótico popular contemporáneo argentino.<br>Dirección General del proyecto: Catalina Lescano<br>Co-escritura: Flavia Calise y Catalina Lescano<br>Performance: Catalina Lescano</p><br><br>";
 
