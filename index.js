@@ -65,12 +65,12 @@ $("#trabajos").on("click", function() {
 });
 
 $("#fotoEstante1").on("click", function() {
-  limpiarFotos();
-  if($("#estante1").html() === ""){
-    $("#estante1").html(textoTrabajo1);
-  } else {
+  if($("#estante1").html() !=== "") {
     $("#estante1").html("");
+    return;
   }
+  limpiarFotos();
+  $("#estante1").html(textoTrabajo1);
 });
 
 $("#fotoEstante2").on("click", function() {
