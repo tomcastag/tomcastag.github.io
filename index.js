@@ -10,8 +10,8 @@ const gestion = "<p><img src='https://i.imgur.com/uvh1lL1.jpg' title='1224' styl
 
 const trabajos = "<div id='fotoEstante1'><img src='https://i.imgur.com/736ZcDX.jpg' title='1' style='height: 100%; width: 100%; object-fit: contain' /></div><div id='fotoEstante2'><img src='https://i.imgur.com/GF939SN.jpg' title='2' style='height: 100%; width: 100%; object-fit: contain' /></div><div id='fotoEstante3'><img src='https://i.imgur.com/J66ilNq.jpg' title='3' style='height: 100%; width: 100%; object-fit: contain' /></div><div id='fotoEstante4'>  <img src='https://i.imgur.com/3a0MTcK.jpg' title='4' style='height: 100%; width: 100%; object-fit: contain' /></div><div id='fotoEstante5'>  <img src='https://i.imgur.com/ds515qN.jpg' title='5' style='height: 100%; width: 100%; object-fit: contain' /></div><div id='fotoEstante6'><img src='https://i.imgur.com/kEcRz7c.jpg' title='6' style='height: 100%; width: 100%; object-fit: contain' /></div>";
 
-const fotoEstante1 = "<figure><img src='https://i.imgur.com/736ZcDX.jpg' title='1' style='height: 100%; width: 100%; object-fit: contain' /></figure>";
-const fotoEstante2 = "<figure><img src='https://i.imgur.com/GF939SN.jpg' title='2' style='height: 100%; width: 100%; object-fit: contain' /></figure>";
+const fotoEstante1 = "<img src='https://i.imgur.com/736ZcDX.jpg' title='1' style='height: 100%; width: 100%; object-fit: contain' />";
+const fotoEstante2 = "<img src='https://i.imgur.com/GF939SN.jpg' title='2' style='height: 100%; width: 100%; object-fit: contain' />";
 const fotoEstante3 = "<figure><img src='https://i.imgur.com/J66ilNq.jpg' title='3' style='height: 100%; width: 100%; object-fit: contain' /></figure>";
 const fotoEstante4 = "<figure><img src='https://i.imgur.com/3a0MTcK.jpg' title='4' style='height: 100%; width: 100%; object-fit: contain' /></figure>";
 const fotoEstante5 = "<figure><img src='https://i.imgur.com/ds515qN.jpg' title='5' style='height: 100%; width: 100%; object-fit: contain' /></figure>";
