@@ -39,7 +39,6 @@ li {
 
 figure {
 	background: #fff;
-	overflow: hidden;
 }
 figure:hover+span {
 	bottom: -36px;
